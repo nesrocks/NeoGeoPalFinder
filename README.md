@@ -8,7 +8,7 @@ You may edit the maximum PNG dimensions in the ini file in the "user" folder.
 Run the program and press "C" to copy the "user" folder path to the clipboard.
 
 Understanding the PNG:
-- Palette colors are arranged sequentially. Each palette is 16 colors (32 bytes from the binary file). So there is a 1x16 pixel are at the top left representing the first palette.
+- Palette colors are arranged sequentially. Each palette is 16 colors (32 bytes from the binary file). So there is a 1x16 pixel area at the top left representing the first palette.
 - Then the next palette is positioned beneath it. This goes on until the max png height is reached (this can be redefined in the ini file).
 - This forms a column. The next palettes will be positioned on the next column to the right and so on.
 - If there is not enough room in the image for all palettes then more pngs will be created and each will be named a page number.
